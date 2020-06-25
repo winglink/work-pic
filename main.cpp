@@ -3,6 +3,7 @@
 #include <stdlib.h>
 #include "showpic.h"
 #include <set>
+//fsfsfgit
 int main() {
     Showpic showpic;
 //    if(img.empty()){
