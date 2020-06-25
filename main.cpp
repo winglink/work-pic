@@ -30,7 +30,7 @@ int main() {
         }
 //        (showpic.*f[index])(pp[index],index);
         std:: cout << index << std::endl;
-        showpic.showtria(pp[i],i);
+        showpic.showfive(pp[i],i);
         counter.insert(index);
     }
     counter.clear();
