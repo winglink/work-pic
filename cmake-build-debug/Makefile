@@ -149,6 +149,33 @@ main.cpp.s:
 	$(MAKE) -f CMakeFiles\pic.dir\build.make CMakeFiles/pic.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+showpic.obj: showpic.cpp.obj
+
+.PHONY : showpic.obj
+
+# target to build an object file
+showpic.cpp.obj:
+	$(MAKE) -f CMakeFiles\pic.dir\build.make CMakeFiles/pic.dir/showpic.cpp.obj
+.PHONY : showpic.cpp.obj
+
+showpic.i: showpic.cpp.i
+
+.PHONY : showpic.i
+
+# target to preprocess a source file
+showpic.cpp.i:
+	$(MAKE) -f CMakeFiles\pic.dir\build.make CMakeFiles/pic.dir/showpic.cpp.i
+.PHONY : showpic.cpp.i
+
+showpic.s: showpic.cpp.s
+
+.PHONY : showpic.s
+
+# target to generate assembly for a file
+showpic.cpp.s:
+	$(MAKE) -f CMakeFiles\pic.dir\build.make CMakeFiles/pic.dir/showpic.cpp.s
+.PHONY : showpic.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -161,6 +188,9 @@ help:
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
+	@echo ... showpic.obj
+	@echo ... showpic.i
+	@echo ... showpic.s
 .PHONY : help
 
 

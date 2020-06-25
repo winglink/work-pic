@@ -1,1 +1,1 @@
- -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 
+ D:/opencv/opencv/mingw-build/lib/libopencv_highgui430.dll.a D:/opencv/opencv/mingw-build/lib/libopencv_videoio430.dll.a D:/opencv/opencv/mingw-build/lib/libopencv_imgcodecs430.dll.a D:/opencv/opencv/mingw-build/lib/libopencv_imgproc430.dll.a D:/opencv/opencv/mingw-build/lib/libopencv_core430.dll.a -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 

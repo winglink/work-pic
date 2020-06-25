@@ -5,7 +5,7 @@
 		<Option title="pic"/>
 		<Option makefile_is_custom="1"/>
 		<Option compiler="gcc"/>
-		<Option virtualFolders="CMake Files\;"/>
+		<Option virtualFolders="CMake Files\;CMake Files\opencv\;CMake Files\opencv\opencv\;CMake Files\opencv\opencv\mingw-build\;"/>
 		<Build>
 			<Target title="all">
 				<Option working_dir="E:/iCloudDrive/work/pic/cmake-build-debug"/>
@@ -24,6 +24,24 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="D:/opencv/opencv/mingw-build"/>
+					<Add directory="D:/opencv/opencv/sources/include"/>
+					<Add directory="D:/opencv/opencv/sources/modules/core/include"/>
+					<Add directory="D:/opencv/opencv/sources/modules/flann/include"/>
+					<Add directory="D:/opencv/opencv/sources/modules/imgproc/include"/>
+					<Add directory="D:/opencv/opencv/sources/modules/ml/include"/>
+					<Add directory="D:/opencv/opencv/sources/modules/photo/include"/>
+					<Add directory="D:/opencv/opencv/sources/modules/dnn/include"/>
+					<Add directory="D:/opencv/opencv/sources/modules/features2d/include"/>
+					<Add directory="D:/opencv/opencv/sources/modules/gapi/include"/>
+					<Add directory="D:/opencv/opencv/sources/modules/imgcodecs/include"/>
+					<Add directory="D:/opencv/opencv/sources/modules/videoio/include"/>
+					<Add directory="D:/opencv/opencv/sources/modules/calib3d/include"/>
+					<Add directory="D:/opencv/opencv/sources/modules/highgui/include"/>
+					<Add directory="D:/opencv/opencv/sources/modules/objdetect/include"/>
+					<Add directory="D:/opencv/opencv/sources/modules/stitching/include"/>
+					<Add directory="D:/opencv/opencv/sources/modules/ts/include"/>
+					<Add directory="D:/opencv/opencv/sources/modules/video/include"/>
 					<Add directory="D:/Mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
 					<Add directory="D:/Mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
 					<Add directory="D:/Mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
@@ -45,6 +63,24 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="D:/opencv/opencv/mingw-build"/>
+					<Add directory="D:/opencv/opencv/sources/include"/>
+					<Add directory="D:/opencv/opencv/sources/modules/core/include"/>
+					<Add directory="D:/opencv/opencv/sources/modules/flann/include"/>
+					<Add directory="D:/opencv/opencv/sources/modules/imgproc/include"/>
+					<Add directory="D:/opencv/opencv/sources/modules/ml/include"/>
+					<Add directory="D:/opencv/opencv/sources/modules/photo/include"/>
+					<Add directory="D:/opencv/opencv/sources/modules/dnn/include"/>
+					<Add directory="D:/opencv/opencv/sources/modules/features2d/include"/>
+					<Add directory="D:/opencv/opencv/sources/modules/gapi/include"/>
+					<Add directory="D:/opencv/opencv/sources/modules/imgcodecs/include"/>
+					<Add directory="D:/opencv/opencv/sources/modules/videoio/include"/>
+					<Add directory="D:/opencv/opencv/sources/modules/calib3d/include"/>
+					<Add directory="D:/opencv/opencv/sources/modules/highgui/include"/>
+					<Add directory="D:/opencv/opencv/sources/modules/objdetect/include"/>
+					<Add directory="D:/opencv/opencv/sources/modules/stitching/include"/>
+					<Add directory="D:/opencv/opencv/sources/modules/ts/include"/>
+					<Add directory="D:/opencv/opencv/sources/modules/video/include"/>
 					<Add directory="D:/Mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
 					<Add directory="D:/Mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
 					<Add directory="D:/Mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
@@ -83,8 +119,23 @@
 		<Unit filename="E:/iCloudDrive/work/pic/main.cpp">
 			<Option target="pic"/>
 		</Unit>
+		<Unit filename="E:/iCloudDrive/work/pic/showpic.cpp">
+			<Option target="pic"/>
+		</Unit>
+		<Unit filename="E:/iCloudDrive/work/pic/showpic.h">
+			<Option target="pic"/>
+		</Unit>
 		<Unit filename="E:/iCloudDrive/work/pic/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="E:/iCloudDrive/work/pic/opencv/opencv/mingw-build/OpenCVConfig-version.cmake">
+			<Option virtualFolder="CMake Files\opencv\opencv\mingw-build\"/>
+		</Unit>
+		<Unit filename="E:/iCloudDrive/work/pic/opencv/opencv/mingw-build/OpenCVConfig.cmake">
+			<Option virtualFolder="CMake Files\opencv\opencv\mingw-build\"/>
+		</Unit>
+		<Unit filename="E:/iCloudDrive/work/pic/opencv/opencv/mingw-build/OpenCVModules.cmake">
+			<Option virtualFolder="CMake Files\opencv\opencv\mingw-build\"/>
 		</Unit>
 	</Project>
 </CodeBlocks_project_file>

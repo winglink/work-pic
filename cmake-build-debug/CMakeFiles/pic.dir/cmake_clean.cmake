@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/pic.dir/main.cpp.obj"
+  "CMakeFiles/pic.dir/showpic.cpp.obj"
   "libpic.dll.a"
   "pic.exe"
   "pic.exe.manifest"
